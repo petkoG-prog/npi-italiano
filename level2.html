@@ -43,23 +43,6 @@
         </p>
       </div>
     </div>
-
-    <!-- PDFs -->
-    <div class="mt-5 flex flex-wrap gap-2">
-      <a href="../Marin T., Ruggieri L., Magnelli S., Cernigliaro M.A., Spinosa E. - Nuovissimo Progetto Italiano - 2019-2022/2/Marin T. - Nuovissimo Progetto Italiano 2. B1-B2. Libro dello studente - 2019.pdf"
-         target="_blank"
-         class="flex items-center gap-1.5 text-xs bg-slate-700 hover:bg-slate-600 border border-slate-600 px-3 py-1.5 rounded-lg transition-colors text-slate-300 hover:text-white">
-        <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-red-400"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
-        Libro dello Studente (B1-B2)
-      </a>
-      <a href="../Marin T., Ruggieri L., Magnelli S., Cernigliaro M.A., Spinosa E. - Nuovissimo Progetto Italiano - 2019-2022/2/Ruggieri L., Magnelli S., Marin T. - Nuovissimo Progetto Italiano 2. B1-B2. Quaderno degli Esercizi - 2020.pdf"
-         target="_blank"
-         class="flex items-center gap-1.5 text-xs bg-slate-700 hover:bg-slate-600 border border-slate-600 px-3 py-1.5 rounded-lg transition-colors text-slate-300 hover:text-white">
-        <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-red-400"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
-        Quaderno degli Esercizi (B1-B2)
-      </a>
-    </div>
-
     <!-- Exercise link -->
     <div class="mt-5 pt-4 border-t border-slate-700/50">
       <a href="exercises/level2.html"
@@ -112,20 +95,22 @@
   </div>
 
   <script src="player.js"></script>
+  <script src="gdrive.js"></script>
   <script>
-    const BASE = '../Marin T., Ruggieri L., Magnelli S., Cernigliaro M.A., Spinosa E. - Nuovissimo Progetto Italiano - 2019-2022/2/Audio/';
-
     const pad = n => String(n).padStart(2, '0');
+    const gd1 = GDRIVE.level2.audio_cd1;
+    const gd2 = GDRIVE.level2.audio_cd2;
+    const gurl = id => `https://drive.google.com/uc?export=download&id=${id}`;
 
     const tracks = [
       ...Array.from({ length: 22 }, (_, i) => ({
         label:   `Traccia ${pad(i + 1)}`,
-        src:     `${BASE}CD1-Traccia_ Audio_${pad(i + 1)}.mp3`,
+        src:     gurl(gd1[`CD1-Traccia_ Audio_${pad(i + 1)}.mp3`]),
         section: 'CD 1'
       })),
       ...Array.from({ length: 32 }, (_, i) => ({
         label:   `Traccia ${pad(i + 1)}`,
-        src:     `${BASE}CD2-Traccia_ Audio_${pad(i + 1)}.mp3`,
+        src:     gurl(gd2[`CD2-Traccia_ Audio_${pad(i + 1)}.mp3`]),
         section: 'CD 2'
       }))
     ];

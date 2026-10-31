@@ -43,29 +43,6 @@
         </p>
       </div>
     </div>
-
-    <!-- PDFs -->
-    <div class="mt-5 flex flex-wrap gap-2">
-      <a href="../Marin T., Ruggieri L., Magnelli S., Cernigliaro M.A., Spinosa E. - Nuovissimo Progetto Italiano - 2019-2022/4/Cernigliaro M.A., Marin T. - Nuovissimo Progetto italiano 4. C2. Libro dello Studente - 2022.pdf"
-         target="_blank"
-         class="flex items-center gap-1.5 text-xs bg-slate-700 hover:bg-slate-600 border border-slate-600 px-3 py-1.5 rounded-lg transition-colors text-slate-300 hover:text-white">
-        <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-red-400"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
-        Libro dello Studente (C2)
-      </a>
-      <a href="../Marin T., Ruggieri L., Magnelli S., Cernigliaro M.A., Spinosa E. - Nuovissimo Progetto Italiano - 2019-2022/4/Spinosa E. - Nuovissimo Progetto italiano 4. C2. Quaderno degli esercizi - 2022.pdf"
-         target="_blank"
-         class="flex items-center gap-1.5 text-xs bg-slate-700 hover:bg-slate-600 border border-slate-600 px-3 py-1.5 rounded-lg transition-colors text-slate-300 hover:text-white">
-        <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-red-400"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
-        Quaderno degli Esercizi (C2)
-      </a>
-      <a href="../Marin T., Ruggieri L., Magnelli S., Cernigliaro M.A., Spinosa E. - Nuovissimo Progetto Italiano - 2019-2022/4/Cernigliaro M.A., Marin T. - Nuovissimo progetto 4. C2. Guida didattica. Appendice attività - 2022.pdf"
-         target="_blank"
-         class="flex items-center gap-1.5 text-xs bg-slate-700 hover:bg-slate-600 border border-slate-600 px-3 py-1.5 rounded-lg transition-colors text-slate-300 hover:text-white">
-        <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-red-400"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
-        Guida Didattica + Appendice
-      </a>
-    </div>
-
     <!-- Exercise link -->
     <div class="mt-5 pt-4 border-t border-slate-700/50">
       <a href="exercises/level4.html"
@@ -136,20 +113,23 @@
   </div>
 
   <script src="player.js"></script>
+  <script src="gdrive.js"></script>
   <script>
-    const BASE = '../Marin T., Ruggieri L., Magnelli S., Cernigliaro M.A., Spinosa E. - Nuovissimo Progetto Italiano - 2019-2022/4/';
     const pad = n => String(n).padStart(2, '0');
+    const gdL = GDRIVE.level4.audio_libro;
+    const gdQ = GDRIVE.level4.audio_quaderno;
+    const gurl = id => `https://drive.google.com/uc?export=download&id=${id}`;
 
     const allTracks = [
       ...Array.from({ length: 26 }, (_, i) => ({
         label:   `Traccia ${pad(i + 1)}`,
-        src:     `${BASE}Audio/nvs4cd1ltr${pad(i + 1)}.mp3`,
+        src:     gurl(gdL[`nvs4cd1ltr${pad(i + 1)}.mp3`]),
         section: 'Libro dello Studente',
         group:   'libro'
       })),
       ...Array.from({ length: 26 }, (_, i) => ({
         label:   `Traccia ${pad(i + 1)}`,
-        src:     `${BASE}Audio esercizi/nvs4cd1qtr${pad(i + 1)}.mp3`,
+        src:     gurl(gdQ[`nvs4cd1qtr${pad(i + 1)}.mp3`]),
         section: 'Quaderno degli Esercizi',
         group:   'quaderno'
       }))
