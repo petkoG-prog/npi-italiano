@@ -113,26 +113,24 @@
   </div>
 
   <script src="player.js"></script>
-  <script src="gdrive.js"></script>
+  <script src="cdn.js"></script>
+  <script src="pdfs.js"></script>
   <script>
     const pad = n => String(n).padStart(2, '0');
-    const gdL = GDRIVE.level4.audio_libro;
-    const gdQ = GDRIVE.level4.audio_quaderno;
-    const gurl = id => `https://drive.google.com/uc?export=download&id=${id}`;
 
     const allTracks = [
       ...Array.from({ length: 26 }, (_, i) => ({
         label:   `Traccia ${pad(i + 1)}`,
-        src:     gurl(gdL[`nvs4cd1ltr${pad(i + 1)}.mp3`]),
+        src:     `${CDN_BASE}/level4/audio_libro/nvs4cd1ltr${pad(i + 1)}.mp3`,
         section: 'Libro dello Studente',
-        group:   'libro'
+        group:   'libro',
       })),
       ...Array.from({ length: 26 }, (_, i) => ({
         label:   `Traccia ${pad(i + 1)}`,
-        src:     gurl(gdQ[`nvs4cd1qtr${pad(i + 1)}.mp3`]),
+        src:     `${CDN_BASE}/level4/audio_quaderno/nvs4cd1qtr${pad(i + 1)}.mp3`,
         section: 'Quaderno degli Esercizi',
-        group:   'quaderno'
-      }))
+        group:   'quaderno',
+      })),
     ];
 
     let activeTab = 'all';

@@ -87,10 +87,9 @@
     </div>
   </main>
 
-  <script src="gdrive.js"></script>
+  <script src="cdn.js"></script>
+  <script src="pdfs.js"></script>
   <script>
-    // Replace static notice with embedded players once IDs are configured
-    const gv = GDRIVE.level3.videos;
     const videos = [
       { unit: 1,  key: 'Unita_1.mp4',  title: "Piazze d'Italia" },
       { unit: 10, key: 'Unita_10.mp4', title: "L'attività di Confcommercio Terziario Donna" },
@@ -104,28 +103,24 @@
       { unit: 25, key: 'Unita_25.mp4', title: "Il cinema italiano" },
     ];
 
-    const hasIds = videos.some(v => gv[v.key]);
-    if (hasIds) {
-      const main = document.querySelector('main');
-      main.innerHTML = `
-        <h2 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4 flex items-center gap-2">
-          <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-orange-400"><path d="M8 5v14l11-7z"/></svg>
-          Video — 10 unità
-        </h2>
-        <div class="space-y-4">
-          ${videos.map(v => {
-            const id = gv[v.key];
-            return `<div class="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden">
-              <div class="px-4 py-3 flex items-center gap-3 border-b border-slate-700">
-                <span class="bg-orange-900/60 text-orange-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-orange-700/50">Unità ${v.unit}</span>
-                <span class="text-sm font-medium text-white">${v.title}</span>
-              </div>
-              ${id ? `<iframe src="https://drive.google.com/file/d/${id}/preview" class="w-full aspect-video" allowfullscreen></iframe>`
-                   : `<p class="px-4 py-4 text-slate-500 text-sm">ID mancante in gdrive.js</p>`}
-            </div>`;
-          }).join('')}
-        </div>`;
-    }
+    const main = document.querySelector('main');
+    main.innerHTML = `
+      <h2 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4 px-5 pt-5 flex items-center gap-2">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-orange-400"><path d="M8 5v14l11-7z"/></svg>
+        Video — 10 unità
+      </h2>
+      <div class="space-y-4 px-5 pb-8">
+        ${videos.map(v => `
+          <div class="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden">
+            <div class="px-4 py-3 flex items-center gap-3 border-b border-slate-700">
+              <span class="bg-orange-900/60 text-orange-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-orange-700/50">Unità ${v.unit}</span>
+              <span class="text-sm font-medium text-white">${v.title}</span>
+            </div>
+            <video src="${CDN_BASE}/level3/video/${v.key}"
+                   class="w-full aspect-video bg-black"
+                   controls preload="metadata"></video>
+          </div>`).join('')}
+      </div>`;
   </script>
 </body>
 </html>

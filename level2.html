@@ -95,24 +95,22 @@
   </div>
 
   <script src="player.js"></script>
-  <script src="gdrive.js"></script>
+  <script src="cdn.js"></script>
+  <script src="pdfs.js"></script>
   <script>
     const pad = n => String(n).padStart(2, '0');
-    const gd1 = GDRIVE.level2.audio_cd1;
-    const gd2 = GDRIVE.level2.audio_cd2;
-    const gurl = id => `https://drive.google.com/uc?export=download&id=${id}`;
 
     const tracks = [
       ...Array.from({ length: 22 }, (_, i) => ({
         label:   `Traccia ${pad(i + 1)}`,
-        src:     gurl(gd1[`CD1-Traccia_ Audio_${pad(i + 1)}.mp3`]),
-        section: 'CD 1'
+        src:     `${CDN_BASE}/level2/audio/CD1-Traccia_ Audio_${pad(i + 1)}.mp3`,
+        section: 'CD 1',
       })),
       ...Array.from({ length: 32 }, (_, i) => ({
         label:   `Traccia ${pad(i + 1)}`,
-        src:     gurl(gd2[`CD2-Traccia_ Audio_${pad(i + 1)}.mp3`]),
-        section: 'CD 2'
-      }))
+        src:     `${CDN_BASE}/level2/audio/CD2-Traccia_ Audio_${pad(i + 1)}.mp3`,
+        section: 'CD 2',
+      })),
     ];
 
     Player.init(tracks);

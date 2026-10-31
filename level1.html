@@ -99,15 +99,14 @@
   </div>
 
   <script src="player.js"></script>
-  <script src="gdrive.js"></script>
+  <script src="cdn.js"></script>
+  <script src="pdfs.js"></script>
   <script>
-    const gd = GDRIVE.level1.audio;
-    const gurl = id => `https://drive.google.com/uc?export=download&id=${id}`;
-
-    const tracks = Array.from({ length: 57 }, (_, i) => {
-      const file = `Traccia_${i + 1}_NVSS.mp3`;
-      return { label: `Traccia ${i + 1}`, src: gurl(gd[file]), section: 'Audio — Libro dello Studente' };
-    });
+    const tracks = Array.from({ length: 57 }, (_, i) => ({
+      label:   `Traccia ${i + 1}`,
+      src:     `${CDN_BASE}/level1/audio/Traccia_${i + 1}_NVSS.mp3`,
+      section: 'Audio — Libro dello Studente',
+    }));
 
     Player.init(tracks);
     Player.renderTracks('track-list', 'bg-green-700 hover:bg-green-600');
