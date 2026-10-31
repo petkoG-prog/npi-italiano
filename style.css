@@ -1,0 +1,206 @@
+/* NPI-Exercises shared stylesheet */
+
+:root {
+  --input-w: 8em;
+  --input-sm: 5em;
+}
+
+/* ── Exercise inputs ── */
+.ex-input {
+  display: inline-block;
+  width: var(--input-w);
+  min-width: 4em;
+  padding: 0.15em 0.4em;
+  margin: 0 0.15em;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #475569; /* slate-600 */
+  color: #e2e8f0;                   /* slate-200 */
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 1.4;
+  vertical-align: baseline;
+  outline: none;
+  transition: border-color .15s;
+}
+.ex-input:focus {
+  border-bottom-color: #38bdf8; /* sky-400 */
+}
+.ex-input:not(:placeholder-shown) {
+  border-bottom-color: #4ade80; /* green-400 */
+}
+.ex-input[placeholder]:focus::placeholder {
+  color: transparent;
+}
+.ex-input::placeholder {
+  color: #64748b; /* slate-500 */
+  font-style: italic;
+}
+
+/* ── Exercise page blocks ── */
+.exercise-page {
+  font-size: 0.97rem;
+  line-height: 1.8;
+}
+
+.ex-block {
+  color: #cbd5e1; /* slate-300 */
+  padding: 0.4em 0;
+}
+
+.ex-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6em;
+  background: #1e293b;   /* slate-800 */
+  border-left: 3px solid #475569;
+  padding: 0.5em 0.75em;
+  border-radius: 0 0.4em 0.4em 0;
+  margin: 1em 0 0.4em;
+}
+
+.ex-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6em;
+  height: 1.6em;
+  background: #334155;  /* slate-700 */
+  color: #94a3b8;       /* slate-400 */
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 0.3em;
+  padding: 0 0.3em;
+  flex-shrink: 0;
+}
+
+.ex-instr {
+  color: #f1f5f9; /* slate-100 */
+  font-style: italic;
+}
+
+.ex-instr.standalone {
+  display: block;
+  color: #94a3b8;
+  font-style: italic;
+  font-size: 0.88em;
+  border-left: 2px solid #475569;
+  padding-left: 0.6em;
+  margin: 0.6em 0 0.2em;
+}
+
+.post-blank {
+  color: #cbd5e1;
+}
+
+/* ── Nav buttons ── */
+.nav-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2em 0.7em;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 0.4em;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: background .15s, color .15s;
+}
+.nav-btn:hover:not(.disabled) {
+  background: #334155;
+  color: #f1f5f9;
+}
+.nav-btn.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* ── Page card (level index) ── */
+.page-card {
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform .15s, box-shadow .15s;
+}
+.page-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+}
+
+/* ── Exercise images ── */
+.ex-image {
+  margin: 0.6em 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+.ex-image img {
+  border-radius: 0.4em;
+  border: 1px solid #334155;
+}
+
+/* ── Scanned page reference ── */
+.scan-ref {
+  margin-bottom: 1.5em;
+}
+.scan-ref summary {
+  padding: 0.3em 0;
+  user-select: none;
+}
+.scan-ref summary:hover {
+  color: #94a3b8;
+}
+.scan-ref[open] summary::after {
+  content: ' ▲';
+}
+.scan-ref:not([open]) summary::after {
+  content: ' ▼';
+}
+
+/* ── Unit badge ── */
+.unit-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.1em 0.55em;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 0.4em;
+}
+
+/* ── Overlay page (text-layer PDF rendered as image + positioned inputs) ── */
+.page-overlay-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 0; /* prevent gap below img */
+}
+.page-overlay-wrap img {
+  width: 100%;
+  display: block;
+  border-radius: 0.35em;
+  border: 1px solid #334155;
+}
+.overlay-input {
+  position: absolute;
+  transform: translateY(-100%);
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  color: #1d4ed8;       /* blue-700 — visible on white page bg */
+  font-family: inherit;
+  font-weight: 600;
+  padding: 0 2px;
+  outline: none;
+  box-sizing: border-box;
+  line-height: 1;
+  /* font-size and height are set dynamically by JS based on container width */
+}
+.overlay-input:focus {
+  background: rgba(186, 230, 253, 0.45); /* sky-200/45 */
+  outline: 1.5px solid #38bdf8;
+  outline-offset: 1px;
+}
+.overlay-input:not(:placeholder-shown) {
+  color: #166534;                          /* green-800 */
+  background: rgba(187, 247, 208, 0.35);  /* green-200/35 */
+}

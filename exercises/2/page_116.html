@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livello 2 · p.116</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col">
+
+  <!-- Top nav -->
+  <nav class="sticky top-0 z-20 bg-slate-800 border-b border-slate-700 px-4 py-2.5
+              flex items-center justify-between gap-4 text-sm">
+    <div class="flex items-center gap-2 min-w-0">
+      <a href="../../index.html" class="text-slate-400 hover:text-white shrink-0" title="Home">
+        <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+          <path d="M10.707 2.293a1 1 0 0 0-1.414 0l-7 7A1 1 0 0 0 3 11h1v6a1 1 0 0 0 1 1h4v-4h2v4h4a1 1 0 0 0 1-1v-6h1a1 1 0 0 0 .707-1.707l-7-7z"/>
+        </svg>
+      </a>
+      <span class="text-slate-600">/</span>
+      <a href="../level2.html" class="text-slate-400 hover:text-white truncate">
+        Livello 2 <span class="text-slate-600">(B1–B2)</span>
+      </a>
+      <span class="text-slate-600">/</span>
+      <span class="text-white font-medium">p.116</span>
+      
+    </div>
+    <div class="flex items-center gap-1 shrink-0">
+      <a href="page_115.html" class="nav-btn">&#8592; 115</a>
+      <a href="page_117.html" class="nav-btn">117 &#8594;</a>
+    </div>
+  </nav>
+
+  <!-- Exercise content -->
+  <main class="flex-1 max-w-3xl w-full mx-auto px-5 py-7">
+    <div class="exercise-page space-y-3">
+      <div class="page-overlay-wrap">
+<img src="img/p116_scan.jpeg" alt="Pagina 116" loading="lazy">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:31.62%;top:21.04%;width:10.08%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:34.97%;top:23.21%;width:6.74%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:31.28%;top:29.96%;width:6.45%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:23.68%;top:31.83%;width:18.03%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:27.48%;top:33.96%;width:14.23%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:25.63%;top:41.38%;width:12.21%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:20.28%;top:42.92%;width:21.43%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:24.77%;top:44.92%;width:16.94%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:26.84%;top:52.21%;width:11.00%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:28.74%;top:54.17%;width:12.90%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:31.28%;top:56.21%;width:10.37%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:24.19%;top:61.67%;width:13.65%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:29.72%;top:63.58%;width:11.92%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:26.96%;top:65.54%;width:14.69%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:23.27%;top:70.96%;width:14.57%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:22.00%;top:72.67%;width:19.70%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:23.85%;top:74.67%;width:17.86%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:32.20%;top:85.50%;width:24.54%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:21.20%;top:87.29%;width:24.94%">
+<input type="text" class="overlay-input" spellcheck="true" autocomplete="off" style="left:43.72%;top:89.12%;width:25.12%">
+</div>
+    </div>
+  </main>
+
+  <!-- Bottom toolbar -->
+  <div class="sticky bottom-0 bg-slate-800/95 backdrop-blur border-t border-slate-700
+              px-5 py-2.5 flex items-center justify-between gap-4 text-xs">
+    <div class="flex items-center gap-3">
+      <button onclick="checkProgress()"
+              class="bg-blue-700 hover:bg-blue-600 text-white px-3 py-1.5 rounded-lg transition-colors">
+        Controlla
+      </button>
+      <button onclick="clearPage()"
+              class="bg-slate-700 hover:bg-slate-600 text-slate-300 px-3 py-1.5 rounded-lg transition-colors">
+        Cancella
+      </button>
+    </div>
+    <span id="progress" class="text-slate-400"></span>
+    <div class="flex items-center gap-1">
+      <a href="page_115.html" class="nav-btn">&#8592; 115</a>
+      <a href="page_117.html" class="nav-btn">117 &#8594;</a>
+    </div>
+  </div>
+
+  <script>
+    const KEY = 'npi_l2_p116';
+    const SEL = '.ex-input, .overlay-input';
+
+    function saveProgress() {
+      const vals = [...document.querySelectorAll(SEL)].map(i => i.value);
+      try { localStorage.setItem(KEY, JSON.stringify(vals)); } catch(e) {}
+    }
+
+    function loadProgress() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(KEY) || '[]');
+        document.querySelectorAll(SEL).forEach((inp, i) => {
+          if (saved[i]) inp.value = saved[i];
+        });
+      } catch(e) {}
+    }
+
+    function checkProgress() {
+      const inputs = document.querySelectorAll(SEL);
+      const filled = [...inputs].filter(i => i.value.trim()).length;
+      const pct = inputs.length ? Math.round(filled / inputs.length * 100) : 0;
+      document.getElementById('progress').textContent =
+        `${filled}/${inputs.length} (${pct}%)`;
+    }
+
+    function clearPage() {
+      document.querySelectorAll(SEL).forEach(i => { i.value = ''; });
+      try { localStorage.removeItem(KEY); } catch(e) {}
+      document.getElementById('progress').textContent = 'Cancellato';
+    }
+
+    document.querySelectorAll(SEL).forEach(i => i.addEventListener('input', saveProgress));
+    loadProgress();
+    checkProgress();
+
+    // Keyboard: Enter advances to next input
+    document.querySelectorAll(SEL).forEach((inp, idx, all) => {
+      inp.addEventListener('keydown', e => {
+        if (e.key === 'Enter') { e.preventDefault(); all[idx + 1]?.focus(); }
+      });
+    });
+
+    // Overlay input font scaling (only active when page was rendered from PDF)
+    (function() {
+      const PDF_PW = 1157.0;
+      if (!PDF_PW) return;
+      const BASE_FS = 11;
+      function scaleOverlays() {
+        document.querySelectorAll('.page-overlay-wrap').forEach(wrap => {
+          const s = wrap.clientWidth / PDF_PW;
+          wrap.querySelectorAll('.overlay-input').forEach(inp => {
+            inp.style.fontSize = (BASE_FS * s).toFixed(1) + 'px';
+            inp.style.height   = (BASE_FS * s * 1.6).toFixed(1) + 'px';
+          });
+        });
+      }
+      if (window.ResizeObserver) {
+        const ro = new ResizeObserver(scaleOverlays);
+        document.querySelectorAll('.page-overlay-wrap').forEach(w => ro.observe(w));
+      }
+      window.addEventListener('resize', scaleOverlays);
+      scaleOverlays();
+    })();
+  </script>
+</body>
+</html>

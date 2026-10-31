@@ -1,0 +1,956 @@
+[
+  {
+    "num": 1,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 589.3200073242188
+  },
+  {
+    "num": 2,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 3,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 4,
+    "unit": null,
+    "inputs": 14,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 5,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 6,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 7,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 8,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 9,
+    "unit": null,
+    "inputs": 8,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 10,
+    "unit": null,
+    "inputs": 9,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 11,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 12,
+    "unit": null,
+    "inputs": 20,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 13,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 14,
+    "unit": null,
+    "inputs": 20,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 15,
+    "unit": null,
+    "inputs": 13,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 16,
+    "unit": null,
+    "inputs": 12,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 17,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 18,
+    "unit": null,
+    "inputs": 14,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 19,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 20,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 600.1199951171875
+  },
+  {
+    "num": 21,
+    "unit": null,
+    "inputs": 8,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 22,
+    "unit": null,
+    "inputs": 9,
+    "pdf_pw": 600.8400268554688
+  },
+  {
+    "num": 23,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 24,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 25,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 26,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 27,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 28,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 29,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 30,
+    "unit": null,
+    "inputs": 20,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 31,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 32,
+    "unit": null,
+    "inputs": 10,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 33,
+    "unit": null,
+    "inputs": 1,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 34,
+    "unit": null,
+    "inputs": 8,
+    "pdf_pw": 600.8400268554688
+  },
+  {
+    "num": 35,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 36,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 595.7999877929688
+  },
+  {
+    "num": 37,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 38,
+    "unit": null,
+    "inputs": 18,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 39,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 40,
+    "unit": null,
+    "inputs": 11,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 41,
+    "unit": null,
+    "inputs": 21,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 42,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 599.760009765625
+  },
+  {
+    "num": 43,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 596.8800048828125
+  },
+  {
+    "num": 44,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 45,
+    "unit": null,
+    "inputs": 12,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 46,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 47,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 48,
+    "unit": null,
+    "inputs": 20,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 49,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 50,
+    "unit": null,
+    "inputs": 21,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 51,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 52,
+    "unit": null,
+    "inputs": 8,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 53,
+    "unit": null,
+    "inputs": 20,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 54,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 55,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 56,
+    "unit": null,
+    "inputs": 10,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 57,
+    "unit": null,
+    "inputs": 8,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 58,
+    "unit": null,
+    "inputs": 16,
+    "pdf_pw": 597.9600219726562
+  },
+  {
+    "num": 59,
+    "unit": null,
+    "inputs": 1,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 60,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 600.8400268554688
+  },
+  {
+    "num": 61,
+    "unit": null,
+    "inputs": 25,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 62,
+    "unit": null,
+    "inputs": 12,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 63,
+    "unit": null,
+    "inputs": 10,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 64,
+    "unit": null,
+    "inputs": 10,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 65,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 66,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 67,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 68,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 69,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 70,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 71,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 72,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 73,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 74,
+    "unit": null,
+    "inputs": 10,
+    "pdf_pw": 595.7999877929688
+  },
+  {
+    "num": 75,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 76,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 77,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 78,
+    "unit": null,
+    "inputs": 11,
+    "pdf_pw": 600.8400268554688
+  },
+  {
+    "num": 79,
+    "unit": null,
+    "inputs": 12,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 80,
+    "unit": null,
+    "inputs": 12,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 81,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 82,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 83,
+    "unit": null,
+    "inputs": 9,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 84,
+    "unit": null,
+    "inputs": 8,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 85,
+    "unit": null,
+    "inputs": 10,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 86,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 87,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 88,
+    "unit": null,
+    "inputs": 8,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 89,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 90,
+    "unit": null,
+    "inputs": 20,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 91,
+    "unit": null,
+    "inputs": 1,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 92,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 93,
+    "unit": null,
+    "inputs": 11,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 94,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 95,
+    "unit": null,
+    "inputs": 12,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 96,
+    "unit": null,
+    "inputs": 11,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 97,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 98,
+    "unit": null,
+    "inputs": 10,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 99,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 100,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 101,
+    "unit": null,
+    "inputs": 10,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 102,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 103,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 104,
+    "unit": null,
+    "inputs": 14,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 105,
+    "unit": null,
+    "inputs": 1,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 106,
+    "unit": null,
+    "inputs": 11,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 107,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 108,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 109,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 110,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 599.0399780273438
+  },
+  {
+    "num": 111,
+    "unit": null,
+    "inputs": 20,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 112,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 113,
+    "unit": null,
+    "inputs": 7,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 114,
+    "unit": null,
+    "inputs": 13,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 115,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 116,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 117,
+    "unit": null,
+    "inputs": 1,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 118,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 119,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 120,
+    "unit": null,
+    "inputs": 14,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 121,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 122,
+    "unit": null,
+    "inputs": 14,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 123,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 124,
+    "unit": null,
+    "inputs": 9,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 125,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 126,
+    "unit": null,
+    "inputs": 17,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 127,
+    "unit": null,
+    "inputs": 14,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 128,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 129,
+    "unit": null,
+    "inputs": 22,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 130,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 131,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 132,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 133,
+    "unit": null,
+    "inputs": 6,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 134,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 135,
+    "unit": null,
+    "inputs": 1,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 136,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 137,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 138,
+    "unit": null,
+    "inputs": 0,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 139,
+    "unit": null,
+    "inputs": 12,
+    "pdf_pw": 600.8400268554688
+  },
+  {
+    "num": 140,
+    "unit": null,
+    "inputs": 29,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 141,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 142,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 143,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 144,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 601.2000122070312
+  },
+  {
+    "num": 145,
+    "unit": null,
+    "inputs": 5,
+    "pdf_pw": 600.8400268554688
+  },
+  {
+    "num": 146,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 147,
+    "unit": null,
+    "inputs": 13,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 148,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 149,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 150,
+    "unit": null,
+    "inputs": 2,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 151,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 152,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 153,
+    "unit": null,
+    "inputs": 4,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 154,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 155,
+    "unit": null,
+    "inputs": 15,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 156,
+    "unit": null,
+    "inputs": 3,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 157,
+    "unit": null,
+    "inputs": 27,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 158,
+    "unit": null,
+    "inputs": 18,
+    "pdf_pw": 602.280029296875
+  },
+  {
+    "num": 159,
+    "unit": null,
+    "inputs": 13,
+    "pdf_pw": 602.280029296875
+  }
+]
